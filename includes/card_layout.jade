@@ -1,0 +1,14 @@
+block vars
+// Card
+.card
+  // Card image
+  img.img-fluid(src="#{card.img}", alt='Card image cap')
+  // Card content
+  .card-body
+    // Title
+    h4.card-title #{card.title}
+    // Text
+    p.card-text
+      | #{card.description} 
+    // a.btn.btn-primary(href='#') Button
+// /.Card
